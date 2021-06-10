@@ -8,13 +8,12 @@ from keep_alive import keep_alive
 
 client = discord.Client()
 
-sad_words = ["sad", "depressed", "unhappy", "angry", "miserable", "depressing", "tired"]
+sad_words = ["sad", "depressed", "unhappy", "angry", "miserable", "depressing"]
 
 starter_encouragements = [
   "Cheer up!",
   "Hang in there.",
-  "You are a great person / bot!",
-  "You can do it!"
+  "You are a great person / bot!"
 ]
 
 if "responding" not in db.keys():
